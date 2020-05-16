@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ing. alvaroAC</title>
+    <!--CUSTOM CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!--jquery skills-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!--SCROLL REVAL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+</head>
+<body>
+
+    <!--Navegacion-->
+    <header class="header" id="headerNav">
+        <nav>
+            <img src="img/logo36.png" alt="apir">
+        <a href="#home" class="logo"><span>Pi</span>r-Web</a>
+            <ul>
+                <li class="active"><a href="#home" onclick="toggle()"><i class="fas fa-home" style="padding-right: 5px;"></i>Inicio</a> </li>
+                <li> <a href="#about" onclick="toggle()"><i class="fas fa-user-tie" style="padding-right: 5px;" ></i>Sobre Me</a></li>
+                <li><a href="#services" onclick="toggle()"><i class="fas fa-globe-americas" style="padding-right: 5px;"></i>Servicios</a></li>
+                <li><a href="#proyect" onclick="toggle()"><i class="fas fa-rocket" style="padding-right: 5px;"></i></i>Proyectos</a></li>
+                <li><a href="#skills" onclick="toggle(); skills()"><i class="fas fa-cogs" style="padding-right: 5px;"></i>Habilidades</a></li>
+                
+                
+            </ul>
+             <div class="toggle" onclick="toggle()"></div>
+        </nav>
+    </header>
+
+        <!-- Seccion Home-->
+        <section class="home-sec" id="home">
+                <h1>!BIENVENIDO.¡</h1>
+                <h1>!BIENVENIDO.¡</h1>
+
+                <div class="person">
+                    <h2>Alvaro Alvarado De La Cruz</h2>
+                    <p>Ingeniero En Sistemas Computacionales</p>
+                </div>
+        </section>
+
+        <!--Envoltura -->
+    <div class="container">
+
+        <!--About Section-->
+        <section class="about-sec" id="about">
+            
+            <div class="contentBx">
+                <h2 class="titleAb">ACERCA DE MÍ</h2>  
+
+            <p class="text">¡Hola!, bienvenido a mi sitio web, mí nombre es Alvaro Alvarado De La Cruz Ingeniero En Sistemas Computacionales; Egresado y Titulado en el Instituto Tecnologico Superior de Loreto Zac. Y ante todo <span>me considero una persona feliz.</span> En todos los apsectos.</p>
+
+        <h3 class="titleAs">Mi forma de hacer las cosa.</h3>
+
+        <p class="text">He aprendido de forma autodidacta en la parte técnica con tutoriales y libros via internet, me apaciona lo que hago y hacerlo con un estilo propio, seguir adquirendo nuevos conocimientos para mejorar cada dia mas en mi vida profecional.</p>
+
+        <h3 class="titleAs">Objetivo De Este Sito Web</h3>
+
+        <p class="text">
+            Utilizar las herramientas digitales para presentar una relacion expresa y clara de mis datos, mis habilidades y experiencia, <span>con la intencion de mostrar mis habilidades optenidads en el trascurso de mi vida. </span>
+        </p>
+            </div>
+
+            <div class="imgBx"></div>
+        </section>
+
+        <!--Services  Section-->
+        <section class="services-sec" id="services">
+            <h2 class="servititle">SERVICIOS</h2>
+            <ul>
+              <li><i class="fas fa-asterisk"></i> Diseñar, programar, aplicar y mantener sistemas informáticos.</li>  
+              <li><i class="fas fa-asterisk"></i> Administrar redes y sistemas de información.</li>
+              <li><i class="fas fa-asterisk"></i> Optimizar los datos que maneja una empresa.</li>
+              <li><i class="fas fa-asterisk"></i> Investigar para crear software y hardware en una empresa u organización.</li>
+              <li> <i class="fas fa-asterisk"></i>Diseñar y mantener los sitios web.</li>
+            </ul>
+
+            <div class="contentS">
+                <div class="serviceBx">
+                    <div>
+                        <img src="img/icon1.png" alt="">
+                        <h2 class="servitxt">Diseño</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="img/icon2.png" alt="">
+                        <h2 class="servitxt">Desarrollo</h2>
+                    </div>
+                </div>
+                <div class="serviceBx">
+                    <div>
+                        <img src="img/icon3.png" alt="">
+                        <h2 class="servitxt">Marca</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--Proyect Section-->
+        <section class="proyect-sec" id="proyect">
+            <h2 class="proytxt">PROYECTOS</h2>
+            <div class="proyect">
+                <div>
+                    <img src="img/proyect1.jpg" alt="">
+                    <h3>Sistema De Ventas De Autos</h3>
+                    <p>Ventas de autos y genera un reporte en pdf con los datos del auto y el cliente y actualiza la base de datos de los actuaos que se venden y ya no los muestra en la interfas </p>
+                </div>
+                <div>
+                    <img src="img/proyecto2.jpg" alt="">
+                    <h3> Sistema De Biblioteca </h3>
+                    <p>registra usuarios los cuales pueden hacer prestamos y se genera un reporte en pdf de entrega del libro en fecha determinada del usuario, y se almacena una base de datos, MySql</p>
+                </div>
+                <div>
+                    <img src="img/proyecto3.jpg" alt="">
+                    <h3>App Web De Una Tienda</h3>
+                    <p>Esta App Web Consuma los datos desde un api rest en c# .net core 2.1.104 </p>
+                </div>
+            </div>
+           
+        </section>
+
+        <!--Skills-->
+        <section class="skills-sec" id="skills">
+            <h2>HABILIDADES</h2>
+            <p>Conocimientos adquiridos de forma autodiactiva de algunos lenguajes de programacion, framework y de base de datos, complementandolos con proyectos</p>
+            <div class="contentSki">
+                <div class="skillsCon">
+                    
+                    <h3 class="skill">Lenguaje De Programacion</h3>
+                    <div class="skills">   
+                        <div class="skill-name">HTML</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="90"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">css</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="90"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">php</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="80"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">Javascript</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="85"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">C#</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="88"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">Java</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="86"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">C++</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="90"></div>
+                        </div>
+                    </div>
+
+                    <h3 class="skill">Framework</h3>
+                    <div class="skills">
+                        <div class="skill-name">Angular</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="90"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">IONIC</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="85"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">.NET</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="90"></div>
+                        </div>
+                    </div>
+                    <h3 class="skill">Base De Datos</h3>
+                    <div class="skills">
+                        <div class="skill-name">Sql Server</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="89"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">MySql</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="85"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">Oracle</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="80"></div>
+                        </div>
+                    </div>
+                    <div class="skills">
+                        <div class="skill-name">MongoDB</div>
+                        <div class="skill-bar">
+                            <div class="skill-pro" per="70"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </section>
+
+
+        <!--Follow me-->
+        <section class="social">
+            <p>CONTACTAME</p>
+            <div class="links">
+                <a href="https://www.facebook.com"  target="_blank">
+                    <i class="fab fa-facebook-f" style="color: #3b5998;"></i>
+                </a>
+                <a href="https://www.twitter.com"  target="_blank">
+                    <i class="fab fa-twitter" style="color: #00acee;"></i>
+                </a>
+                <a href="https://www.linkdin.com"  target="_blank">
+                    <i class="fab fa-linkedin" style="color: #0e76a8;"></i>
+                </a>
+                <a href="https://www.whatsapp.com/"  target="_blank">
+                    <i class="fab fa-whatsapp" style="color: #00bb2d;"></i>
+                </a>
+                <a href="https://telegram.org/"  target="_blank">
+                    <i class="fab fa-telegram" style="color:#00aae4 "></i>
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="content">
+            <div class="footer-container">
+                      
+                <div class="footer-col">
+                    <h3>DIRECIÓN</h3>
+                    <p><span class="foots">Loreto - Zacatecas</span></p>
+                </div>
+                <div class="footer-col">
+                    <h3>AUTOR</h3>
+                    <p><span class="foots">Alvaro Alvarado De La Cruz</span> </p>
+                </div>
+                <div class="footer-col">
+                    <h3>MÁS</h3>
+                    <p>Contactame <br>
+                   <a href="#about" class="resaltado"> <span class="foots">Acerca de mí</span></a>  <br>
+                    Comparte
+                    </p>
+                </div>
+            </div>
+        
+        </div>
+            
+        
+        <p class="copyright">
+            Copyright 2020 &copy; Copyright <a href="#home" class="resaltado"><span class="foots">ing.alvaroac.com</span></a> - Todos los derechos reservados
+        </p>
+    </footer>
+     <!--SCROLL REVAL-->
+     <script src="https://unpkg.com/scrollreveal"></script>
+     <!--Skills Efect-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!--Customer js-->
+    <script src="js/main.js"></script>
+</body>
+</html>
